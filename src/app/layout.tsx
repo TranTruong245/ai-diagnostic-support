@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={raleway.className}>
         <div >
-          <div className=' '>
+          <div className=''>
 
         {children}
           </div>
