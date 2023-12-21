@@ -3,12 +3,12 @@ import Image from 'next/image'
 import Link from 'next/link';
 const Profile =()=>{
     return(
-        <div className='relative min-h-screen bg-red-50'>
+        <div className=' min-h-screen bg-red-50'>
+            <div className='relative'>
                 <div className='absolute'>
                     <Image className='z-1' src="/gray_brain.png" alt=""width={650} height={580}></Image>
                 </div>
-                
-                <div className='flex flex-row z-10 absolute' >
+                <div className='flex flex-row z-10 ' >
                     <div className='col ml-[51px] mt-[23px]'>
                     <Image src={"/logohust.png"}alt='' width={61} height={89} className='z-10'></Image>
                     </div>
@@ -22,10 +22,7 @@ const Profile =()=>{
                     </div>
             
                 </div>
-            
-            
-
-            <div className='flex flex-row absolute mt-52'>
+                <div className='flex flex-row absolute mt-52'>
                 <div className='flex flex-col justify-center items-center col h-[600px] w-[600px] border-3'>
                     <div className=' row z-2 col h-[554px] w-[440px] bg-green-200 rounded-3xl shadow bordr-1'>
                         <div className='flex items-center justify-center mt-14'>
@@ -56,9 +53,15 @@ const Profile =()=>{
                 </div>
             </div>
 
-            <div>
-
+            
             </div>
+               
+                
+                
+            
+            
+
+           
 
         </div>
     )
